@@ -1,28 +1,3 @@
-/*class producto {
-  constructor(nombre, precio) {
-    this.nombre = nombre;
-    this.precio = precio;
-  }
-}
-
-let producto1 = new producto("cheeseburger", 500);
-let producto2 = new producto("papas fritas", 250);
-let producto3 = new producto("vaso de gaseosa", 200);
-let productos = [producto1, producto2, producto3];
-
-let carrito = [];
-
-carrito.push(productos[0].precio);
-carrito.push(productos[1].precio);
-carrito.push(productos[2].precio);
-
-let total = carrito.reduce((acc, e) => {
-  return (acc = acc + e);
-});
-
-console.log(`La suma de los productos es:
- ${total}`);*/
-
 const productos = [
   { tipo: "hamburguesa", nombre: "cheeseburger", precio: 400 },
   { tipo: "hamburguesa", nombre: "hamburguesa completa", precio: 500 },
